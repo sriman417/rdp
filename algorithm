@@ -1,0 +1,7 @@
+Consider a path of different points. Keep the start and end points of the path.
+Now draw the doted lines from the points to the line segment.
+Now find the furthest distance from the starting point.
+Consider epsilon which is near to the furthest point.
+If the furthest point is greater than the epsilon from the line segment then the point must be kept.
+Then the process finds the recursive path from the first point and the furthest point and then with the furthest point and the last point.
+After the completion of the process a new curve with few points will be generated.
